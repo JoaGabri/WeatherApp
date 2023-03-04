@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+</head>
+<body class="flex justify-center items-center h-screen bg-[#f2f8fd]">
+    <!--switch celsius/farenheit-->
+    <label class="switch">
+        <input type="checkbox" id="toggle">
+        <span class="slider round"></span>
+    </label>
+    <!-- Container -->
+    <div id="Container" class="items-center rounded-xl shadow-2xl justify-center bg-white  relative overflow-hidden transition-all duration-500 delay-200
+    scale-0 opacity-0 h-20">
+        <!-- search-box-->
+        <div id="search-box" class="flex justify-around items-center w-full h-max relative mt-9 mb-9">
+            <i class="fa-regular fa-compass fa-lg"></i>
+            <input type="text" placeholder="Insert you localization " class="outline-none w-3/4 ">
+            <button id="button" class="rounded-full h-6 w-6 bg- hover:bg-[#b0bac2] transition-color duration-150 delay-150"><i class="fa-solid fa-magnifying-glass fa-lg "></i></button>
+        </div>
+        <!--not-found-->
+        <div id="not-found" class="justify-center flex items-center flex-col">
+            <img  id="picture" src="../images/wrong-way.png" class="mx-auto">
+            <p class="">Location not found :(</p>
+        </div>
+        <!--weather-box-->
+        <div id="weather-box" class="flex mt-9">
+            <div class="w-1/2 justify-center flex items-center">
+            <img src="" id="picture" class="mx-auto">
+            </div>
+            <div  class="w-1/2  flex flex-col items-center justify-center">
+            <p id="temperature" class="block font-black uppercase text-4xl"></p>
+            <p id="description" class="block font-bold uppercase text-1xl"></p>
+            </div>
+        </div>
+        <!--Weather-deatils-->
+        <div id="weather-details"class="flex mt-9">
+            <div id="humidity" class="w-1/2 justify-center flex items-center h-40">
+            <i class="fa-solid fa-water fa-2xl"></i>
+            <div class="justify-center flex items-center flex-col pl-3">
+                <span></span>
+                <p>Humidity</p>
+            </div>
+           </div> 
+           <div id="wind" class="w-1/2 justify-center flex items-center h-40">
+            <i class="fa-solid fa-wind fa-2xl"></i>
+            <div class="justify-center flex items-center flex-col pl-3">
+                <span></span>
+                <p>Wind Speed</p>
+            </div>
+           </div>
+        </div>
+        
+    </div>
+    
+
+
+
+
+    <script src="https://kit.fontawesome.com/0ba3759b75.js" crossorigin="anonymous"></script>
+    <script src="/src/index.js"></script>
+</body>
+</html>
