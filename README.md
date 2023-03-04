@@ -71,3 +71,6 @@ Fonte de pesquisas e ferramentas / Sources of research and tools
     stackoverflow
     MDN
     HEX Color selector
+    
+    Este projeto foi inspirado no video "ASMR Programming - Weather App With Javascript - No Talking"
+    https://www.youtube.com/watch?v=iILFBGm_I9M
