@@ -63,7 +63,6 @@ Fonte de pesquisas e ferramentas / Sources of research and tools
     Utilizei algumas fontes de pesquisa e algumas ferramentas para contribuir com o meu projeto:
     I used some sources of research and some tools to contribute to my project:
 
-    ChatGPT
     Google
     DevDocs
     a documentação do tailwindCSS / tailwindCSS documentation
