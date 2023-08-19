@@ -1,8 +1,10 @@
 WeatherApp
 
 Este projeto é uma aplicação web que permite aos usuários visualizar a previsão do tempo atual de uma determinada cidade, usando a API oferecida pela OpenWeather.
+Você pode ver o video do meu projeto no meu [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7037805658733187072/?originTrackingId=AT58MgH8S0ihhrMK0UGAAw%3D%3D)
 
 This project is a web application that allows users to view the current weather forecast of a given city, using the API offered by OpenWeather.
+You can see my project on my [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7037805658733187072/?originTrackingId=AT58MgH8S0ihhrMK0UGAAw%3D%3D)
 
 Funcionalidades/ Features
 
